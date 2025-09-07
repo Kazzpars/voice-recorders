@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio Recorder</title> 
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.0/lame.min.js"></script>
+</head>
+<body>
+    <img src="/img/logo.png" alt="Logo" class="logo">
+    
+    
+    <header>
+        <img src="./img/header.png" alt="Header Image" srcset="">
+    </header>
+
+
+    <div class="container">
+    <h1>Audio Recorder</h1>
+    <button id="recordBtn">Start</button>
+    <button id="uploadBtn" disabled>Save</button>
+
+    <ul id="recordingsList"></ul>
+</div>
+
+<canvas id="canvasWave" width="500" height="100"></canvas>
+<canvas id="canvasWaterfall" width="500" height="100"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
